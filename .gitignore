@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Uploads & Analysis
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/analysis_outputs/*
+!backend/analysis_outputs/.gitkeep
+backend/data/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
