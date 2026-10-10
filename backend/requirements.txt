@@ -1,0 +1,10 @@
+# Versions verified in the project's Python 3.11 environment.
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic-settings==2.15.0
+python-multipart==0.0.32
+httpx==0.28.1
+ultralytics==8.4.153
+torch==2.14.0
+torchvision==0.29.0
+opencv-python==5.0.0.93
